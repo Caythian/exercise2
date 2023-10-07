@@ -1,36 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
-function App() {
+import Title from './Basic.js';
+import Menu from './Basic.js'; 
+  
+function App(){
   return (
-    <div className="App">
-      <div className="headbar">
-        <h className="header">Origami:  <span className="header2">More than What You Think</span></h>
-    </div>
-    {/* <div className="menu-icon" onclick="menupop()"> */}
-        {/* <img src="Images/bars-solid.svg" width="2%" > */}
-    {/* </div> */}
-    <div className="menu" id="menu">
-        <li><a href="HOME.html">Home</a></li>
-        <li><a href="CUL.html">Origami as a Culture</a></li>
-        <li><a href="TUTORIAL.html">Tutorial</a></li>
-        <li><a href="REC.html">Virtual Archive</a></li>
-        
-    </div>
-    <div className="imageholder">
-        {/* <img src="Images/OrigamiIntro.jpeg" alt="OrigamiIntro" width="80%"> */}
-    </div>
-    <div className="Text">
+    <div>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Origami</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+      </head>
+
+      <Title/>
+      <Menu/>
+      <div className="imageholder">
+        <img src={ '/Images/OrigamiIntro.jpeg'} alt="OrigamiIntro" width="80%" />
+      </div>
+      <div className="Text">
         <p className="intro">
-            Welcome to <span className="emph">Origami: More than What You Think</span>, where the intricate art of paper folding unfolds. With roots deep in Japan's history, origami is not just a craft but a testament to the country's rich cultural tapestry, intertwined with Shinto rituals and ancient ceremonies. While the past is embroidered with tradition, the world of origami today is vast and diverse, encompassing the lifelike beauty of figurative origami, the collective allure of modular pieces, and the hands-on utility of practical origami. Dive into our expansive resources to journey through its storied past, discover the myriad ways origami graces our daily lives, and delve deep into the fascinating mathematics underpinning each fold and crease. Welcome to a world where art meets precision, and tradition meets innovation. Welcome to the universe of origami.
+          {/* Your text here */}
         </p>
-    </div>
-    <div className="footer">
+      </div>
+      <div className="footer">
         <p>&copy; 2023 Origami: More than What You Think. All Rights Reserved.</p>
+      </div>
     </div>
-<script src="script.js"></script>        
-    </div>
-  );
+  )
 }
 
-export default App;
