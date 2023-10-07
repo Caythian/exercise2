@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700;800&display=swap');
 
 * {
   margin: 5;
   padding: 0;
   box-sizing: border-box; 
 }
+
+
 .headbar{
   width:100%;
   padding:20px;
@@ -35,7 +38,7 @@ ul {
   list-style-type: none;
 }
 .menu-icon{
-  margin-left:0%;
+  margin-left:2%;
   display:flex;
   justify-content: left;
 }
@@ -112,6 +115,7 @@ ul {
   justify-content: center;
   font-size: 15px;
   color: #903749;
+  height:200px;
 }
 .image-description {
   display: flex;

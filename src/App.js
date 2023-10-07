@@ -1,34 +1,24 @@
 import React from 'react';
 import './App.css';
-import Title from './Basic.js';
-import Menu from './Basic.js'; 
-  
-function App(){
+import Title from './components/Title'; 
+import Menu from './components/Format';
+import {Imageholder} from './components/Image';
+import Text from './components/Text';
+import {Footer} from './components/Format';
+
+
+
+
+function App() {
   return (
     <div>
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Origami</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-      </head>
-
-      <Title/>
-      <Menu/>
-      <div className="imageholder">
-        <img src={ '/Images/OrigamiIntro.jpeg'} alt="OrigamiIntro" width="80%" />
-      </div>
-      <div className="Text">
-        <p className="intro">
-          {/* Your text here */}
-        </p>
-      </div>
-      <div className="footer">
-        <p>&copy; 2023 Origami: More than What You Think. All Rights Reserved.</p>
-      </div>
+      <Title />
+      <Menu />
+      <Imageholder/>
+      <Text/>
+      <Footer/>
     </div>
-  )
+      )
 }
 
+export default App;
