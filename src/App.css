@@ -1,38 +1,153 @@
-.App {
+
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.headbar{
+  width:100%;
+  padding:20px;
+  background-color: #EFE1D1;
+  position:relative;
+  margin:0;
+}
+.header{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color:#2B2E4A;
+}
+.header2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 800;
+  font-size:2.5rem;
+  color:#53354A;
+}
+a{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: medium;
+  margin:0 3%;
+  text-decoration: none;
+  color: #2B2E4A;
+}
+ul {
+  list-style-type: none;
+}
+.menu-icon{
+  margin-left:0%;
+  display:flex;
+  justify-content: left;
+}
+.menu{
+  display:flex;
+  background-color: rgba(239, 225, 209, 0.3);
+  padding-bottom: 1%;
+  padding-top:1%;
+  z-index:100; 
+  position:absolute;
+}
+.menu li {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:#E84545;
+  display: flex;
+  justify-content: left;
+}
+.menu a:hover {
+  background-color:#2B2E4A;
+}
+.imageholder {
+  display: flex;
+  justify-content:center;  /* Horizontally center the image */
+  align-items: center;      /* Vertically center the image */
+}
+.footer {
+  background-color:#EFE1D1; /* Set your desired background color */
+  color:#2B2E4A; /* Set your desired text color */
   text-align: center;
+  padding: 2%;
+  position: relative;
+  width: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: smaller;
+  font-weight: 500;
+  margin:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Text{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #2B2E4A;
+  margin-left:5%;
+  margin-right:5%
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Intro{
+  text-indent: 2rem;
+  line-height: 2;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: medium;
+  font-weight: 400;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.subt{
+  font-size: 2REM;
+  font-weight: 600;
+  color:#E84545;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.body{
+  font-size: medium;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.imageinbody {
+  display: flex;
+  margin: 4%;
+  justify-content: center;
+  font-size: 15px;
+  color: #903749;
+}
+.image-description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.image-description2 {
+  display: flex;
+  justify-content:left;
+  margin-left: 5%;
+  gap: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.highlight{
+  color:#903749;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: underline;
+  display: block;
+  margin-left: 5%;
+}
+.divider{
+  margin:5%;
+}
+.emph{
+  font-weight: bold;
+  color:#53354A;
+}
+.linkList{
+  font-weight: 400;
+  margin-left:5%;
+}
+#menu {
+  display: none;
+}
+.video{
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
 }
