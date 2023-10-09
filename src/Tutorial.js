@@ -3,7 +3,7 @@ import './App.css';
 import Title from './components/Title'; 
 import Menu from './components/Format';
 import {Linklist1,Linklist2, Imagetutorial} from './components/Image';
-import {Subt,Body} from './components/Text';
+import {Subt} from './components/Text';
 import {Footer} from './components/Format';
 
 function Tutorial(){

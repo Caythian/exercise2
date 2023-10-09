@@ -4,14 +4,14 @@ export default function Text(props){
     return(
     <div className="Text">
         <p className="intro">
-          {props.Text}</p>
+          {props.children}</p>
     </div>
       );
 }
 export function Intro(props){
     return(
     <div className="Text">
-        <p className="intro">{props.intro}</p>
+        <p className="intro">{props.children}</p>
     </div>
     )}
 export function Subt(props){

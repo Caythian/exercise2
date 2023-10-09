@@ -91,10 +91,46 @@ function Linklist2(){
     </ol>
     )
 }
+
+function Linklist3(props){
+    return(
+        <ol>
+            <li className="linkListplus">
+                <a className="highlight" href="https://langorigami.com/" target="_blank">Robert Lang's Origami Page</a>
+                <p className="Text">{props.des1}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.youtube.com/watch?v=MDwPXRy9IFc&t=62s"target="_blank">WEIRD: 11 Levels of Origami: Easy to Complex | WIRED</a>
+                <p className="Text">{props.des2}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.youtube.com/watch?v=NYKcOFQCeno"target="_blank">TED:The math and magic of origami | Robert Lang</a>
+                <p className="Text">{props.des3}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.youtube.com/watch?v=Q6nQ0tbsVvw"target="_blank">Origami: Art, Engineering… or Both?</a>
+                <p className="Text">{props.des4}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.youtube.com/watch?v=3E12uju1vgQ"target="_blank">Origami in Space: BYU-designed solar arrays inspired by origami</a>
+                <p className="Text">{props.des5}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.youtube.com/watch?v=VvR1hG3yQpo"target="_blank">Neil Katz: Origami and Architecture</a>
+                <p className="Text">{props.des6}</p>
+            </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://origamiusa.org/"target="_blank">OrigamiUSA </a>
+                <p className="Text">{props.des7}</p>
+            </li>
+        </ol>//I guess there could be a for loop
+    )
+}
 export {Imageholder};
 export {Image};
 export {ImageSe};
 export {Video};
 export {Linklist1};
 export {Linklist2};
+export {Linklist3};
 export {Imagetutorial};

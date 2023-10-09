@@ -31,6 +31,9 @@ function Menu() {
           <li>
             <Link to='./Tutorial'>Tutorial</Link>
           </li>
+          <li>
+            <Link to='./Resources'>Virtual Archive</Link>
+          </li>
         </ul>
       </div>
     </div>

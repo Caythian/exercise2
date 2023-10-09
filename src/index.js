@@ -10,6 +10,7 @@ import {
 import App from './App';
 import Culture from './Culture';
 import Tutorial from './Tutorial';
+import Resources from './Resources';
 //import the rest of the page here
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/Tutorial",
     element: <Tutorial/>,
+  },
+  {
+    path: "/Resources",
+    element: <Resources/>,
   },
 ]);
 
