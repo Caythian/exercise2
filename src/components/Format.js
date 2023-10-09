@@ -26,14 +26,11 @@ function Menu() {
             <Link to='./App'>Home</Link>
           </li>
           <li>
-            <Link to='./Culture'>Culture</Link>
-          </li>
-          {/* <li>
-            <a href="TUTORIAL.html">Tutorial</a>
+            <Link to='./Culture'>Origami as A Culture</Link>
           </li>
           <li>
-            <a href="REC.html">Virtual Archive</a>
-          </li>  */}
+            <Link to='./Tutorial'>Tutorial</Link>
+          </li>
         </ul>
       </div>
     </div>

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import App from './App';
 import Culture from './Culture';
+import Tutorial from './Tutorial';
 //import the rest of the page here
 
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/Culture",
     element: <Culture/>,
+  },
+  {
+    path: "/Tutorial",
+    element: <Tutorial/>,
   },
 ]);
 
