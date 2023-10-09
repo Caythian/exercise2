@@ -8,22 +8,21 @@ export default function Text(props){
     </div>
       );
 }
-function Intro(props){
+export function Intro(props){
+    return(
     <div className="Text">
         <p className="intro">{props.intro}</p>
     </div>
-}
-function Subt(props){
+    )}
+export function Subt(props){
+    return(
     <div className="Text">
         <p className="subt">{props.subt}</p>
     </div>
-}
-function Body(props){
-    <div className="Text">
-        <p className="body">{props.body}</p>
-    </div>
+)}
+export function Body(props){
+    return (<div className="Text">
+        <p className="body">{props.children}</p>
+    </div>)
 }
 
-export {Intro}
-export {Subt}
-export {Body}

@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import '../App.css';
 import BarsSolid from "../Images/bars-solid.svg";
+import { Link } from 'react-router-dom';
 
 
 function Menu() {
@@ -22,17 +23,17 @@ function Menu() {
       >
         <ul>
           <li>
-            <a href="HOME.html">Home</a>
+            <Link to='./App'>Home</Link>
           </li>
           <li>
-            <a href="CUL.html">Origami as a Culture</a>
+            <Link to='./Culture'>Culture</Link>
           </li>
-          <li>
+          {/* <li>
             <a href="TUTORIAL.html">Tutorial</a>
           </li>
           <li>
             <a href="REC.html">Virtual Archive</a>
-          </li>
+          </li>  */}
         </ul>
       </div>
     </div>
