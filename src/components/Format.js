@@ -23,16 +23,16 @@ function Menu() {
       >
         <ul>
           <li>
-            <Link to='./App'>Home</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='./Culture'>Origami as A Culture</Link>
+            <Link to='/Culture'>Origami as A Culture</Link>
           </li>
           <li>
-            <Link to='./Tutorial'>Tutorial</Link>
+            <Link to='/Tutorial'>Tutorial</Link>
           </li>
           <li>
-            <Link to='./Resources'>Virtual Archive</Link>
+            <Link to='/Resources'>Virtual Archive</Link>
           </li>
         </ul>
       </div>
