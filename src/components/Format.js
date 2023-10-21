@@ -1,19 +1,22 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState,useRef} from 'react';
 import '../App.css';
 import OpenMenu from '../Images/Open.svg';
 import ClosedMenu from '../Images/Closed.svg';
 import { Link } from 'react-router-dom';
-
+import Turn from '../Turn.mp3';
 
 function Menu() {
   const [menuVisible, setMenuVisible] = useState(false);
+  const audioRef = useRef(null);
   const menupop = () => {
     setMenuVisible(!menuVisible);
+    audioRef.current.play();
   };
 
   return (
     <div>
+       <audio ref={audioRef} src={Turn} style={{ display: 'none' }}></audio>
       <div className="menu-icon" onClick={menupop}>
         {menuVisible ? (
           <img src={OpenMenu} width="4%" alt="Close Icon"/>
