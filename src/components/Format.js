@@ -19,9 +19,9 @@ function Menu() {
        <audio ref={audioRef} src={Turn} style={{ display: 'none' }}></audio>
       <div className="menu-icon" onClick={menupop}>
         {menuVisible ? (
-          <img src={OpenMenu} width="4%" alt="Close Icon"/>
+          <img className="imgMenu" src={OpenMenu} alt="Close Icon"/>
         ) : (
-          <img src={ClosedMenu} width="4%" alt="Open Icon"/>
+          <img className="imgMenu" src={ClosedMenu} alt="Open Icon"/>
         )}
       </div>
       <div

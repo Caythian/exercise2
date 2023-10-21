@@ -123,6 +123,10 @@ function Linklist3(props){
                 <a className="highlight" href="https://origamiusa.org/"target="_blank">OrigamiUSA </a>
                 <p className="Text">{props.des7}</p>
             </li>
+            <li className="linkListplus">
+                <a className="highlight" href="https://www.tarosorigami.com/"target="_blank">Taro's Origami Studio </a>
+                <p className="Text">{props.des8}</p>
+            </li>
         </ol>//I guess there could be a for loop
     )
 }

@@ -6,6 +6,7 @@ import {Linklist3} from './components/Image';
 import {Subt} from './components/Text';
 import {Footer} from './components/Format';
 import Map from './components/Map';
+import {Body} from './components/Text';
 
 
 function Resources(){
@@ -22,7 +23,9 @@ function Resources(){
             des5="This is a youtube video talking specifically about how the study of origami could lead to a change in the design of space stations, specifically the solar panels."
             des6="This video suggests that contemporary architecture is sometimes inspired by origami, that the surface of the buildings mimics the polygons we see in modular origami"
             des7="OrigamiUSA is a non-profit organization devoted to the promotion and sharing of the art of origami, or paper folding. The organization offers memberships to origami enthusiasts, providing access to a supportive community, resources, and events, including classes, workshops, and an Annual Convention. On its website, visitors can find a wealth of origami-related resources, including instructional videos, diagrams, articles, and an online store offering origami supplies and books. The site also provides information about upcoming events and activities, supporting both individual folders and origami groups and clubs."
+            des8="Below shows one of the origami studio, Taro's Origami Studio, in the US that provide origami as a team building activity. It offers online sessions!"
             />
+        <Body></Body>
         <Map/>
         <Footer/>
     </div>
