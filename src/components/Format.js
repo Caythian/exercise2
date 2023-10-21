@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import '../App.css';
-import BarsSolid from "../Images/bars-solid.svg";
+import OpenMenu from '../Images/Open.svg';
+import ClosedMenu from '../Images/Closed.svg';
 import { Link } from 'react-router-dom';
 
 
@@ -14,7 +15,11 @@ function Menu() {
   return (
     <div>
       <div className="menu-icon" onClick={menupop}>
-        <img src={BarsSolid} width="2%" alt="Menu Icon"/>
+        {menuVisible ? (
+          <img src={OpenMenu} width="4%" alt="Close Icon"/>
+        ) : (
+          <img src={ClosedMenu} width="4%" alt="Open Icon"/>
+        )}
       </div>
       <div
         className="menu"
